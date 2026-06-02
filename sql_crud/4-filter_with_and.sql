@@ -1,4 +1,4 @@
-select title, price;
+select title, price
 from books
 where genre = 'Tech'
 and price > 30;
