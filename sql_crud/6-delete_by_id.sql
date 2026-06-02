@@ -1,2 +1,2 @@
 delete from books 
-where id = 4;
+where id = 8;
