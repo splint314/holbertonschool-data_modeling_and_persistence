@@ -1,3 +1,3 @@
 select title, price
 from books
-order by title, price asc;
+order by price asc;
