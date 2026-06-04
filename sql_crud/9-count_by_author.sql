@@ -1,3 +1,1 @@
-select autohr_id, count(*)
-group by author_id
-from books
+select author_id, count(*) from books group by author_id;
