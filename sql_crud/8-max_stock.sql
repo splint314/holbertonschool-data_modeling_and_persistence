@@ -1,4 +1,2 @@
-from books 
-group by title
-order by stock desc
-limit 1;
+select max(stock) as maximum_stock
+from books;
