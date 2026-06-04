@@ -1,0 +1,2 @@
+select count(*) as total_books
+from books;
