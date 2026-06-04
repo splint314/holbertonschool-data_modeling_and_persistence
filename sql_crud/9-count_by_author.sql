@@ -1,1 +1,1 @@
-select author_id, count(*) from books group by author_id;
+select author, count(*) from books group by author_id;
