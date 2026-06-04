@@ -1,4 +1,2 @@
-from books
-group by title
-order by stock desc
-limit 1;
+select SUM(stock) as total_stock
+from books;
