@@ -1,5 +1,5 @@
-UPDATE books
-SET stock = stock + 3
-WHERE stock < 5;
-
-select * from books;
+select title, price
+from books
+where stock > 0
+order by price asc
+limit 4;
