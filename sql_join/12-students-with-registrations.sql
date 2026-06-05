@@ -1,0 +1,6 @@
+SELECT DISTINCT
+    students.name
+FROM students
+JOIN registrations
+    ON students.id = registrations.student_id
+ORDER BY students.name ASC;
